@@ -12,6 +12,7 @@ public class JenklinTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
 		driver.close();
+		System.out.println("code completed and successfuly run");
 	}
 
 }
